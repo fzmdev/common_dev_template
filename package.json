@@ -1,0 +1,25 @@
+{
+  "name": "common_dev_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git add . && cz-customizable",
+    "prepare": "husky install",
+    "changelog": "conventional-changelog -p gitmoji-config -i CHANGELOG.md -s"
+  },
+  "keywords": [],
+  "author": "fzmdev",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^19.2.0",
+    "@commitlint/config-conventional": "^19.1.0",
+    "commitlint-config-cz": "^0.13.3",
+    "commitlint-config-git-commit-emoji": "^1.0.0",
+    "conventional-changelog-cli": "^4.1.0",
+    "conventional-changelog-gitmoji-config": "^1.5.2",
+    "cz-customizable": "^7.0.0",
+    "husky": "^7.0.1"
+  }
+}
